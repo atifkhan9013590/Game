@@ -1,0 +1,138 @@
+body{
+  
+ 
+  background-color:#FA9C1B;
+  font-family: 'Courier New', Courier, monospace;
+}
+.game{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.game-div1{
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+}
+.App {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+
+ background-color: white;
+ 
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgb(93, 92, 92);
+  
+}
+#btn1{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: darkslategrey;
+
+
+}
+.scorecard{
+  background-color:  darkslategrey;
+  width: 300px;
+  height: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 120px;
+  border-radius: 5px;
+ 
+  position: fixed;
+ 
+}
+.row{
+  display: flex;
+}
+
+.result{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container{
+  background-color:lightgreen;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(13, 103, 13);
+  border-radius: 3px;
+}
+.you{
+  margin-right: 20px;
+}
+.com{
+  margin-left: 20px;
+}
+.gamer{
+  display: flex;
+  flex-direction: column;
+}
+.game-div2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 2px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #FA9C1B;
+  width: 420px;
+  height: 50px;
+}
+.posts{
+  background-color: skyblue;
+  border: 1px dotted green;
+  height: 100px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ font-size: 10px;
+  margin-bottom: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.div6,.div7,.div8,.div5{
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.comments{
+  background-color: rgb(43, 54, 58);
+  border: 1px dotted green;
+  height: 100px;
+ display: grid;
+ grid-template-columns: 1fr 1fr  ;
+ font-size: 10px;
+ color: white;
+}
+.div-container{
+  display: flex;
+  flex-direction: column;
+ 
+}
